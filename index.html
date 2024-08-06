@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        body{
+            background:linear-gradient(45deg,rgb(52, 52, 102),rgb(170, 61, 170)
+            );
+            /* background-size: 300% 300%;
+            animation:color 12s ease-in-out infinite; */
+        }
+        .container{
+            background-color: white;
+            height: 600px;
+            width:750px;
+            margin-left: 300px;
+            text-align: center;
+            padding-left: 50px;
+            padding-right:50px;
+        }
+        /* @keyframes color{
+            0%{
+                background-position: 0 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0 50%;
+            }
+        } */
+         h1{
+            font-size: 175px;
+            background-image:linear-gradient(45deg,rgb(10, 10, 230),orange) ;
+            background-clip: text;
+            color: transparent;
+            height:160px;
+            
+         }
+         /* .error{
+            height: 250px;
+         } */
+         h2{
+            font-weight: 100;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            font-size: 50px;
+         }
+         .para{
+            font-size: 25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+         }
+         .but{
+            display: flexbox;
+            justify-content: space-around ;
+            
+         }
+         button{
+            color:purple;
+            border-color: rgb(223, 70, 223);
+            border-radius:50px;
+            height:35px;
+         }
+         button:hover{
+            background-color:aquamarine
+         }
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <p class="error">
+            <h1>404</h1>
+        </p>
+        <p class="oops">
+            <h2>OOPS! PAGE NOT FOUND</h2>
+        </p>
+        <p class="para">Sorry,the page you're looking for doesn't exist.If you think something is broken, report a problem.</p>
+        <div class="but">
+        <button>RETURN HOME</button>
+        <button>REPORT PROBLEM</button>
+        </div>
+
+    </div>
+</body>
+</html>
